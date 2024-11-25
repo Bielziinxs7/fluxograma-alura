@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.webp" alt="">
+            <p>Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
+            <button class="btn-proximo" data-proximo="1">São Paulo</button>
+            <button class="btn-proximo" data-proximo="2">Ceará</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>A carta menciona "uma avenida que nunca dorme".</p>
+            <button class="btn-proximo" data-proximo="3">Avenida Paulista</button>
+            <button class="btn-proximo" data-proximo="8">Avenida 9 de Julho</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>A carta menciona "o vento que guia os navegantes"</p>
+            <button class="btn-proximo" data-proximo="4">Jericoacoara</button>
+            <button class="btn-proximo" data-proximo="8">Fortaleza</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>"Siga em direção ao encontro das águas."</p>
+            <button class="btn-proximo" data-proximo="8">Marginal Tietê</button>
+            <button class="btn-proximo" data-proximo="5">Parque Ibirapuera</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>"Dentro da caverna, procure o cristal que brilha na escuridão."</p>
+            <button class="btn-proximo" data-proximo="5">Levar uma lanterna</button>
+            <button class="btn-proximo" data-proximo="8">Seguir sem preparação</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>"Após seguir as pistas em São Paulo e no Ceará, você percebe que ambas as trilhas convergem para uma nova localização. A última pista fala sobre "o coração da natureza intocada, onde o tempo parece parar". Você conecta as informações das cartas e descobre que o destino final é uma ilha secreta na Amazônia."</p>
+            <button class="btn-proximo" data-proximo="6">Seguir sozinho(a):</button>
+            <button class="btn-proximo" data-proximo="7">Abandonar a busca:</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/cenario-passo6-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida">
+            <p>Após enfrentar desafios na selva e cruzar rios perigosos, você encontra a cidade perdida. Suas riquezas e belezas naturais são surpreendentes, mas você percebe que a verdadeira recompensa é a experiência e as memórias da jornada. Você decide manter o local em segredo para protegê-lo.</p>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passo7-voltar-casa.webp" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Você decide que a jornada já foi aventura o suficiente e prefere manter a cidade perdida como um mistério, embora você nunca descubra o destino final, guarda as cartas como um tesouro pessoal e vive com a satisfação de ter seguido as pistas até onde pôde.</p>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Game over</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
